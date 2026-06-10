@@ -32,16 +32,22 @@ El trabajo calcula la fluencia sin colisionar **Ψ^UC** y la primera fuente de d
 | `TT_FC.ipynb` | Compresión TT-Cross de s^FC en malla gruesa (1 cm) |
 | `TT_FC_5mm.ipynb` | Compresión TT-Cross de s^FC en malla intermedia (5 mm) |
 
----
-
 ## Resultados principales
 
-- Secciones eficaces puntuales verificadas frente a NIST con errores **< 0,23 %** (fotoeléctrico) y **< 0,02 %** (Compton)
-- Colapso multigrupo verificado frente a NJOY/GAMINR con errores **< 0,2 %** en la sección total
-- Compresión TT de Ψ^UC: error de Frobenius **0,0000 %**, factor **16,9×** (1 cm) y **2082,6×** (1 mm)
-- Compresión TT de s^FC: factor **182,8×**, error **0,580 %** (1 cm)
+- Secciones eficaces puntuales verificadas frente a NIST con errores
+  **< 0,23 %** (fotoeléctrico) y **< 0,02 %** (Compton); frente a
+  ENDF/B-VII.1 con errores **< 0,29 %** (fotoeléctrico) y **< 0,30 %**
+  (Compton)
+- Colapso multigrupo verificado frente a NJOY/GAMINR con errores **< 0,2 %**
+  en la sección Compton y total para ambas ponderaciones
+  (_w_ = Ψ<sup>UC</sup> y _w_ = 1)
+- Compresión TT de Ψ<sup>UC</sup>: error de Frobenius **0,0000 %**, factor
+  **16,9×** (malla de 1 cm) y error **0,009 %**, factor **2082,6×**
+  (malla de 1 mm)
+- Compresión TT de s<sup>FC</sup>: factor **182,8×**, error **0,580 %**
+  (malla de 1 cm); factor **657,9×**, error **1,364 %** (malla de 5 mm)
 
----
+
 
 ## Dependencias principales
 
